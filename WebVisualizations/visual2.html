@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <style>
+    body {
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    }
+    </style>
+    <title>Bootstrap Dashboard</title>
+</head>
+
+<body style="background-color: #ededed;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: white;">
+        <div class="col-sm-8 col-md-8 col-lg-8">
+            <a class="navbar-brand" href="index.html" style="color: white; background-color: #67cfa9;" ><b>Latitude</b></a>
+        </div>
+        <div class="collapse navbar-collapse col-sm-4 col-md-4 col-lg-4" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown"
+                    href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="visual1.html">Max Temperature</a>
+                        <a class="dropdown-item" href="visual2.html">Humidity</a>
+                        <a class="dropdown-item" href="visual3.html">Cloudiness</a>
+                        <a class="dropdown-item" href="visual4.html">Wind Speed</a>
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href='#!'>Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" >
+        </br>
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-lg-8">
+                <div class="card">
+                    <h2 class="box_titling" style="color: #67cfa9; font-family: roboto;"><b>Humidity</b></h2>
+                    <hr>
+                    <img class="card-img-top" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig2.png" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <figure class="box bg-white">
+                    <h2 class="box_titling" style="color: #67cfa9; font-family: roboto;"><b>Visualizations</b></h2>
+                    <hr>
+                    <div class="img-tiles">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="visual1.html">
+                                    <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" height="120px" width="150px">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="visual2.html">    
+                                    <img class="img-responsive border border-success" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig2.png" height="120px" width="150px">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="visual3.html">
+                                    <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig3.png" height="120px" width="150px">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="visual4.html">    
+                                    <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig4.png" height="120px" width="150px">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer d-flex justify-content-center" style="background-color: #8da99a;">
+        <p class="text-white">Weather Data Analysis</p>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

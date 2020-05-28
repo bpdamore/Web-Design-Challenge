@@ -1,0 +1,22 @@
+.card {
+    padding:25px;
+    border-radius: 5px;
+}
+
+.box {
+    padding:25px;
+    border-radius: 5px;
+}
+
+.space {
+    margin-right: 30px;
+}
+
+.navbar-brand {
+    padding:15px;
+}
+
+.img-tiles {
+    padding:0px;
+}
+
