@@ -11,11 +11,7 @@
     font-family: 'Roboto', serif;
     font-size: 16px;
     }
-    .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+
     </style>
     <title>Bootstrap Dashboard</title>
 </head>
@@ -25,6 +21,9 @@
         <div class="col-sm-8 col-md-8 col-lg-8">
             <a class="navbar-brand" href="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/index.html" style="color: white; background-color: #67cfa9;" ><b>Latitude</b></a>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse col-sm-4 col-md-4 col-lg-4" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto mt-2 mt-md-0">
                 <li class="nav-item dropdown">
@@ -40,37 +39,14 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Comparison</a>
+                    <a class="nav-link" href="compare.html">Comparison</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href='#!'>Data</a>
+                    <a class="nav-link" href='table.html'>Data</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <!--
-         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Plots
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="viz1.html">Max Temperature</a>
-                      <a class="dropdown-item" href="viz2.html">Humidity</a>
-                      <a class="dropdown-item" href="viz3.html">Cloudiness</a>
-                      <a class="dropdown-item" href="viz4.html">Wind Speed</a>
-                    </div>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Comparison</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-              </li>
-            </ul>
-          </div>
-    -->
     <div class="container" >
         </br>
         <div class="row">
@@ -81,7 +57,7 @@
                     <div class="col-sm-6 col-md-4 col-lg-4">
                         <img src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" class="float-left img-thumbnail space" />
                     </div>
-                    <div >
+                    <div>
                         <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
                             To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
                     </p>
@@ -96,30 +72,27 @@
                 <figure class="box bg-white">
                     <h2 class="box_titling" style="color: #67cfa9; font-family: roboto;"><b>Visualizations</b></h2>
                     <hr>
-                    <div class="img-tiles">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="visual1.html">
-                                    <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" height="120px" width="150px">
-                                </a>
-                            </div>
-                            <div class="col-md-6">
-                                <a href="visual2.html">    
-                                    <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig2.png" height="120px" width="150px">
-                                </a>
-                            </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6">
+                            <a href="visual1.html">
+                                <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig1.png" height="120px" width="150px">
+                            </a>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="visual3.html">
-                                    <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig3.png" height="120px" width="150px">
-                                </a>
-                            </div>
-                            <div class="col-md-6">
-                                <a href="visual4.html">    
-                                    <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig4.png" height="120px" width="150px">
-                                </a>
-                            </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6">
+                            <a href="visual2.html">    
+                                <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig2.png" height="120px" width="150px">
+                            </a>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6">
+                            <a href="visual3.html">
+                                <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig3.png" height="120px" width="150px">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-6 col-xs-6">
+                            <a href="visual4.html">    
+                                <img class="img-responsive" src="C:/Users/bpdam/Documents/Bootcamp/Homework/Web-Design-Challenge/WebVisualizations/Resources/assets/images/Fig4.png" height="120px" width="150px">
+                            </a>
                         </div>
                     </div>
                 </figure>
@@ -127,9 +100,9 @@
         </div>
     </div>
 
-    <div class="footer d-flex justify-content-center" style="background-color: #8da99a; font-family: roboto;">
+    <footer class="footer d-flex justify-content-center" style="background-color: #8da99a; font-family: roboto;">
         <p class="text-white">Weather Data Analysis</p>
-    </div>
+    </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
